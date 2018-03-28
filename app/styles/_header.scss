@@ -1,0 +1,129 @@
+.header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	&__logo{
+		@media (max-width: $screen-xs-max){
+			margin-bottom: 15px;
+		}
+	}
+	&__wrap{
+		padding-top: 40px;
+		@media (max-width: $screen-xs-max){
+			padding-top: 20px;
+		}
+	}
+	&__buttons{
+		@media (max-width: $screen-md-max){
+			text-align: right;
+		}
+		@media (max-width: $screen-xs-max){
+			text-align: center;
+		}
+		.-btn{
+			font-size: 16px;
+			color: #f6d144;
+			font-weight: 500;
+			text-decoration: none;
+			transition: all .3s;
+			border: 2px solid #f6d144;
+			border-radius: 3px;
+			display: inline-block;
+			text-align: center;
+			padding: 8px 30px;
+			margin-right: 9px;
+			&:hover{
+				border: 2px solid transparent;
+				background-color: #f6d144;
+				color: #282828;
+			}
+		}
+		.btn{
+			font-size: 16px;
+			color: #282828;
+			font-weight: 500;
+			text-decoration: none;
+			transition: all .3s;
+			border: 2px solid transparent;
+			background-color: #f6d144;
+			border-radius: 3px;
+			display: inline-block;
+			text-align: center;
+			padding: 8px 20px;
+			&:hover{
+				border: 2px solid #f6d144;
+				background-color: transparent;
+				color: #f6d144;
+			}
+		}
+	}
+	&__blog{
+		padding-top: 155px;
+		@media (max-width: $screen-md-max){
+			padding-top: 70px;
+		}
+		@media (max-width: $screen-xs-max){
+			padding-top: 50px;
+		}
+		h1{
+			color: #fff;
+			font-size: 72px;
+			font-family: 'Roboto Slab', serif;
+			font-weight: 700;
+			line-height: 70px;
+			padding-bottom: 45px;
+			margin: 0;
+			@media (max-width: $screen-md-max){
+				font-size: 50px;
+				line-height: normal;
+			}
+			@media (max-width: $screen-sm-max){
+				font-size: 35px;
+				line-height: normal;
+			}
+			@media (max-width: $screen-xs-max){
+				font-size: 25px;
+			}
+			@media (max-width: $screen-xs-min){
+				font-size: 22px;
+			}
+		}
+		p{
+			font-size: 18px;
+			color: #fff;
+			font-weight: 400;
+			padding-top: 135px;
+			@media (max-width: $screen-xs-max){
+				font-size: 14px;
+				padding-top: 60px;
+			}
+			@media (max-width: $screen-xs-min){
+				font-size: 12px;
+			}
+		}
+		.button{
+			font-size: 16px;
+			text-transform: uppercase;
+			color: #282828;
+			font-weight: 700;
+			text-decoration: none;
+			transition: all .3s;
+			border: 2px solid transparent;
+			background-color: #f6d144;
+			border-radius: 30px;
+			display: inline-block;
+			text-align: center;
+			padding: 10px 30px;
+			@media (max-width: $screen-xs-max){
+				font-size: 14px;
+				padding: 8px 20px;
+			}
+			&:hover{
+				border: 2px solid #f6d144;
+				background-color: transparent;
+				color: #f6d144;
+			}
+		}
+	}
+}
