@@ -2,7 +2,7 @@
 	background-color: #282828;
 	&__blog{
 		padding-top: 55px;
-		padding-bottom: 55px;
+		
 		@media (max-width: $screen-xs-max){
 			text-align: center;
 			padding-top: 25px;
